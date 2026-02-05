@@ -8,7 +8,7 @@ body {
 }
 .poem {
   margin: 100px auto;
-  overflow-y: scroll
+  overflow-y: scroll;
   text-align: center;
 }
 .poem p {
