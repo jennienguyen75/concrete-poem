@@ -24,11 +24,11 @@ body {
 .poem p.bold { font-weight: bold; }
 .poem p.left { 
   text-align: left; 
-  left-margin: 20px; 
+  margin-left: 20px; 
 }
-.poem p. right {
+.poem p.right {
   text-align: right; 
-  right-margin: 20px; 
+  margin-right: 20px; 
 }
 hr {
   border: none;
