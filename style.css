@@ -9,6 +9,7 @@ body {
 .poem {
   margin: 100px auto;
   overflow-y: scroll;
+  overflow-x: scroll;
   text-align: center;
 }
 .poem p {
@@ -17,27 +18,15 @@ body {
   font-size: 25px;
   color: white;
 }
-.poem p.big {
-  margin: 10px 0;
-  letter-spacing: 1px;
-  font-size: 40px;
-}
-.poem p.bigger {
-  margin: 10px 0;
-  letter-spacing: 1px;
-  font-size: 60px;
-}
-.poem p.small {
-  margin: 10px 0;
-  letter-spacing: 1px;
-  font-size: 15px;
-}
-.poem p.bold {
-  font-weight: bold;
-}
+.poem p.big { font-size: 40px; }
+.poem p.bigger { font-size: 60px; }
+.poem p.small { font-size: 15px; }
+.poem p.bold { font-weight: bold; }
+.poem p.left { text-align: left; }
+.poem p. right {text-align: right; }
 hr {
   border: none;
-  height: 10px;
+  height: 100px;
   width: cover;
   background-color: transparent;
 }
